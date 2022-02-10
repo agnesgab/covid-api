@@ -1,0 +1,53 @@
+* {
+    font-family: arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+table {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.tbl-headings {
+    background-color: #cddc393d;
+}
+/*tr:nth-child(even) {*/
+/*    background-color: #cddc393d;*/
+/*}*/
+
+.input-container {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+input {
+    margin-left: 5px;
+    margin-right: 20px;
+}
+
+.btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+button {
+    margin: 20px;
+    padding: 5px;
+    min-width: 20%;
+}
